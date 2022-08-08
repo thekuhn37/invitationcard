@@ -1,0 +1,88 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.maintitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(1, 1, 7);
+    text-align: center;
+    font-family: wedding-gothic-atf-wide, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.gallery {
+    width: 100%;
+    height: 40vh;
+    background: rgba(119, 114, 100, 0.712);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: #fff
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #fff
+}
+
+/* 
+.container {
+    height: 93vh;
+    background: white;
+    display: grid;
+    grid-template-rows: 40px auto 40px 40px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 3px;
+} */
+
+/* div { */
+/* background: rgb(173, 79, 79); */
+/* color: white; */
+/* } */
+
+.header {
+    grid-column: 1/-1;
+}
+
+.menu {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.contents {
+    grid-column: 2/-1;
+}
+
+.contact {
+    grid-column: 1/6;
+}
+
+.location {
+    grid-column: 6/-1;
+}
+
+.footer {
+    grid-column: 1/-1;
+}

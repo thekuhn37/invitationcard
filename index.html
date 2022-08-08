@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation_DH&SH</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qfn7ifd.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <h1 class="maintitle">Save the Date</h1>
+    <div class="gallery">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./imgs/load/birthday.jpg" alt="1"></div>
+                <div class=" swiper-slide"><img src="./imgs/load/hongdae.jpg" alt="2"></div>
+                <div class="swiper-slide"><img src="./imgs/load/yoga.jpg" alt="3"></div>
+                <div class="swiper-slide"><img src="./imgs/load/bus.jpg" alt="4"></div>
+                <div class="swiper-slide"><img src="./imgs/load/gym.jpg" alt="5"></div>
+                <div class="swiper-slide"><img src="./imgs/load/sticker.jpg" alt="6"></div>
+                <div class="swiper-slide"><img src="./imgs/load/hnm.jpg" alt="7"></div>
+                <div class="swiper-slide"><img src="./imgs/load/rose.jpg" alt="8"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 3500,
+                dsiableOnInteraction: false,
+            },
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+
+
+    <a href="gallery.html">Gallery</a>
+
+    <!-- 
+    <div class="container">
+        <div class="header">header</div>
+        <div class="menu">menu</div>
+        <div class="contents">contents</div>
+        <div class="contact">contact</div>
+        <div class="location">location</div>
+        <div class="footer">footer</div>
+    </div>
+-->
+
+
+</body>
+
+</html>
