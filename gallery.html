@@ -35,17 +35,17 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
     <script>
-        const swiper = new Swiper('.swiper', {
+        var swiper = new Swiper('.swiper', {
             loop: true,
             autoplay: {
                 delay: 4000,
                 dsiableOnInteraction: false,
             },
-            // If we need pagination
             pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
+                el: ".swiper-pagination",
+                type: "progressbar",
             },
             // Navigation arrows
             navigation: {
